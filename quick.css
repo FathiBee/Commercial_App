@@ -1,0 +1,399 @@
+body {
+    background-color:rgb(177, 177, 144);
+  }
+  * {
+    margin: 0;
+  }
+  .primary-nav{
+      height: 70px;
+      width: 100%;
+      background-color: rgb(219, 166, 23);
+  }
+  .primary-nav img{
+      aspect-ratio: 15/6;
+      height: 70px;
+      width: 150px;
+
+      /* height: 60px;
+      margin: 5px; */
+  }
+  .primary-text{
+      font-family:'DM Sans', sans-serif ;
+      line-height: 5px;
+  }
+  .primary-subheading{
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 600;
+      line-height: 6px;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@1,9..40,100&display=swap');
+  .nav-loc{
+      display: flex;
+      align-items:last baseline;
+      justify-content: center;
+  }
+  .nav-loc svg{
+      margin: 0px 5px 10px 0px;
+  }
+  .primary-nav{
+      display: flex;
+  }
+  .nav-items{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      color: aliceblue;
+  }
+  
+  .nav-loc{
+      margin: 0px 5px 10px 0px;
+  }
+  .cart{
+      display: flex;
+      align-items: baseline;
+  }
+  
+  .second-nav{
+      height: 39px;
+      width: 100%;
+      background-color:rgb(220, 181, 90);
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items:center;
+      color: white;
+      
+      
+      /* position: fixed; */
+  }
+  .secondary-nav a{
+      text-decoration: none;
+      font-style: 20px;
+      color: snow;
+      padding: 0px 10px;
+  }
+  .secondary-nav a:hover{
+      color: rgb(221, 230, 140);
+      border: 1px rgb(236, 242, 182) solid;
+      border-radius: 10px;
+  }
+  .items{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: azure;
+}
+.options a{
+    color:white;
+}
+  .carousel-inner img{
+      width: 90%;
+      height: 600px;
+  }
+  
+  #carouselExampleAutoplaying{
+   margin-left: 120px;   
+  }
+  
+  .home-wrapper1{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 250px;
+  }
+  .home-container{
+      height: 300px;
+      width: 300px;
+      background-color:whitesmoke;
+  }
+  
+  .carousel-control-prev-icon{
+      position: relative;
+  
+  }
+  .home-container-wrap{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+  }
+  .home-container-wrap{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+}
+  .home-container-wrap p{
+      font-weight: 400;
+      line-height: 15px;
+  }
+  .home-container-wrap img{
+      height: auto;
+      width: 120px;
+      align-items: center;
+    
+  }
+  .home-container-image-wrapper{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 10px;
+}
+.home-wrapper2{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 250px;
+    }
+ .cloth{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(239, 191, 128);
+    top: -200px;
+    position: relative;
+    justify-content: center;
+      
+ }   
+ .cloth img{
+    border-radius: 40%;
+    left: 20px;
+    position: relative;
+ }
+
+
+
+.clothes{
+    /* display: flex; */
+  /* justify-content: space-between; */
+  position: relative;
+  bottom: 180px;
+  justify-content: center;
+  height: 720px;
+  width: 100%;
+  background-color: beige;
+    
+}
+ .clothes h1{
+    color: rgb(140, 140, 96);
+    font-family: serif ;
+    font-size: 50px;
+    bottom: 160px;
+    display: flex;
+    justify-content: center;
+
+}
+.clo1-img{
+    border-radius: 2em;
+    height: 300px;
+    width: 1500px;
+    background-color: bisque;
+    position: relative;
+    top: -10px;
+    justify-content: center;
+}
+
+.clo1-img img{
+    border-radius: 10%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 30px;
+}
+.clo2-img{
+    border-radius: 2em;
+    height: 300px;
+    width: 1500px;
+    background-color: bisque;
+
+}
+.clo2-img img{
+    border-radius: 10%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 30px;
+}
+/* .clothes.cloth-img{
+    size: 400px;
+}
+.clothes.clo-img{
+    width: 500px;
+    height: 500px;
+    bottom: 90px;
+    top: 400px;
+    position: relative;
+
+} */
+.home{
+    bottom: 160px;
+}
+.style{
+    color: rgb(140, 140, 96);
+    font-family: serif ;
+    font-size: 50px;
+    bottom: 160px;
+    display: flex;
+    justify-content: center;
+
+}
+#clo1{
+    height: 400px;
+    width: 99%;
+    background-color: lightpink;
+}
+.fashion{
+    border-radius: 1em;
+    height: 350px;
+    width: 1500px;
+    background-color: rgb(224, 205, 167);
+    position: relative;
+    justify-content: center;
+    top: -130px;
+    left: 10px;
+
+}
+.clo3-img img{
+    border-radius: 1em;
+    left: 30px;
+    position: relative;
+
+}
+.electro{
+    border-radius: 1em;
+    height: 350px;
+    width: 1500px;
+    background-color: rgb(235, 215, 174);
+    position: relative;
+    justify-content: center;
+    top: 50px;
+    left: 6px;
+    
+}
+.ee-img img{
+    height:250px;
+    width: 250px;
+    left: 60px;
+    position: relative;
+    border-radius: 1em;
+    justify-content: space-evenly;
+    
+}
+.home{
+    border-radius: 1em;
+    height: 540px;
+    width: 1500px;
+    background-color: rgb(235, 215, 174);
+    position: relative;
+    justify-content: center;
+    top: 80px;
+    left: 6px;
+    
+}
+.clo4-img img{
+    height:200px;
+    width: 250px;
+    left: 60px;
+    position: relative;
+    border-radius: 1em;
+    justify-content: space-evenly;
+
+}
+.clo5-img img{
+    height:200px;
+    width: 250px;
+    left: 60px;
+    position: relative;
+    border-radius: 1em;
+    justify-content: space-evenly;
+
+}
+.fw{
+    border-radius: 1em;
+    height: 620px;
+    width: 1500px;
+    background-color: rgb(235, 215, 174);
+    position: relative;
+    justify-content: center;
+    top: 120px;
+    left: 6px;
+
+}
+.gr{
+    border-radius: 1em;
+    height: 720px;
+    width: 1500px;
+    background-color: rgb(235, 215, 174);
+    position: relative;
+    justify-content: center;
+    top: 70px;
+    left: 6px;
+}
+.clo6-img img{
+    height:200px;
+    width: 250px;
+    left: 60px;
+    position: relative;
+    border-radius: 1em;
+    justify-content: space-evenly;
+
+}
+.clo7-img img{
+    height:200px;
+    width: 250px;
+    left: 60px;
+    position: relative;
+    border-radius: 1em;
+    justify-content: space-evenly;
+
+}
+
+.contact{
+    height: 230px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    background-color:  rgb(203, 171, 117);
+}
+
+.cnt{
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    border: 0px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: column ;
+    position: relative;
+    top: 50px;
+}
+.cnt a{
+    text-decoration: none;
+    color: white;
+}
+.cnt h4{
+    color: white;
+    font-weight: 600;
+    
+}
+
+.cnt a:hover{
+    color: rgb(0, 255, 51);
+}
+.contact-end{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(220, 170, 46);
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.contact-end a{
+    padding: 10px;
+    color: white;
+}
+.contact-end a:hover{
+    color: rgb(27, 77, 203);
+}
